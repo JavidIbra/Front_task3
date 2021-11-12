@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Road Rage;
+  height: 113vh;
+  color: floralwhite;
+}
+.full_img {
+  position: relative;
+  background-image: url("../img/f30.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 99%;
+  height: 100vh;
+  margin: 10px 10px 50px 10px;
+}
+.full_img > span {
+  display: block;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+#left {
+  left: 40px;
+  top: 50%;
+}
+#rigth {
+  top: 50%;
+  right: 50px;
+}
+.fa-chevron-left {
+  color: white;
+  font-size: 16px;
+  margin: 12px;
+}
+.fa-chevron-right {
+  color: white;
+  font-size: 15px;
+  margin: 12px;
+}
+.footer {
+  position: absolute;
+  bottom: -60px;
+  left: 390px;
+  width: 600px;
+  height: 150px;
+  background-color: rgb(102, 177, 177);
+  border-radius: 7px;
+}
+.footer > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Road Rage;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  color: floralwhite;
+}
+.footer1 {
+  margin-top: 25px;
+}
+.footer1 > span {
+  text-align: center;
+  margin: 10px 10px 10px 22px;
+}
+.la {
+  color: rgb(54, 27, 27);
+}
